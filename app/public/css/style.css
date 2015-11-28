@@ -1,3 +1,27 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+footer, .page-wrap:after {
+  height: 142px;
+}
+footer {
+  background-color: #222;
+  border: 1px solid #080808;
+  color: #FFF;
+  padding: 25px;
+}
 .navbar {
   border-radius: 0px;
 }
