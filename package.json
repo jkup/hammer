@@ -1,5 +1,5 @@
 {
-  "name": "hammer",
+  "name": "hammer-starter",
   "version": "0.1.0",
   "description": "A Node.js, Express, MySQL, Passport, Jade starter kit.",
   "main": "app/server.js",
