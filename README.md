@@ -12,12 +12,19 @@ A Node.js, Express, MySQL, Passport, Jade starter kit.
 
 First you'll need to create a database, name it anything you'd like but you'll need the name later.
 
-Inside this database create a "users" table that contains the following fields:
+    $ mysql -uroot -p
+    mysql> CREATE DATABASE YOUR_DATABASE;
 
-    id       ( INT, Auto Incrementing, Primary Key )
-    username ( VARCHAR )
-    email    ( VARCHAR )
-    password ( VARCHAR )
+Inside this database create a 'users' table that contains the following fields:
+
+    mysql> CREATE TABLE `YOUR_DATABASE`.`users` (
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `username` VARCHAR(45) NOT NULL,
+    `email` VARCHAR(255) NOT NULL,
+    `password` VARCHAR(255) NOT NULL,
+    PRIMARY KEY (`id`),
+    UNIQUE INDEX `username_UNIQUE` (`username` ASC),
+    UNIQUE INDEX `email_UNIQUE` (`email` ASC));
 
 You'll then need to edit app/config/connection.js and enter your credentials.
 

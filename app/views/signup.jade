@@ -1,0 +1,29 @@
+include ./layouts/header.jade
+div.container-fluid.page-wrap
+  div.row
+    div.col-md-6.col-md-offset-3
+      div.Signup-Form
+        h3.Title!= message
+        form(id="signup", name="signup", action="signup", method="post")
+          input(
+            type="text",
+            name="username",
+            placeholder="Username"
+          ).form-control
+          input(
+            type="email",
+            name="email",
+            placeholder="Email address"
+          ).form-control
+          input(
+            type="password",
+            name="password",
+            placeholder="Password"
+          ).form-control
+          input(
+            type="submit",
+            class="btn btn-primary form-control",
+            value="Sign up"
+          )
+          
+include ./layouts/footer.jade

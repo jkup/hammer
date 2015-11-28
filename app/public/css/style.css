@@ -29,7 +29,8 @@ footer {
   width: 300px;
   padding: 25px;
 }
-.signin-form input[type="email"],
-.signin-form input[type="password"] {
+input[type="text"],
+input[type="email"],
+input[type="password"] {
   margin-bottom: 25px;
 }
