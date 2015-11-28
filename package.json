@@ -4,6 +4,7 @@
   "description": "A Node.js, Express, MySQL, Passport, Jade starter kit.",
   "main": "app/server.js",
   "scripts": {
+    "start": "node app/server.js",
     "test": "test"
   },
   "repository": {

@@ -36,9 +36,16 @@ Now you can edit app/config/routes/default-routes.js and replace the title and m
 
 Now just run:
 
-    node .
+    npm start
 
 And off you go!
+
+### Testing
+
+A testing framework is already setup in the test folder. To run all tests, simply type:
+
+    npm test
+
 
 ## Libraries
 
