@@ -71,3 +71,4 @@ Hammer makes use of a lot of open source libraries. They are probably your best 
 + [Passport](http://passportjs.org/)
 + [MySQL](https://www.mysql.com/)
 + [bcrypt](https://www.npmjs.com/package/bcryptjs)
++ [Bootstrap](http://getbootstrap.com/)
