@@ -1,0 +1,41 @@
+{
+  "name": "hammer",
+  "version": "0.1.0",
+  "description": "A Node.js, Express, MySQL, Passport, Jade starter kit.",
+  "main": "app/server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkup/hammer.git"
+  },
+  "keywords": [
+    "Express",
+    "MySQL",
+    "Passport",
+    "Jade"
+  ],
+  "author": "Jon Kuperman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkup/hammer/issues"
+  },
+  "homepage": "https://github.com/jkup/hammer#readme",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.14.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.0",
+    "express": "^4.13.3",
+    "express-session": "^1.12.1",
+    "jade": "^1.11.0",
+    "mysql": "^2.9.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0"
+  }
+}
