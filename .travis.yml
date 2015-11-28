@@ -1,4 +1,9 @@
 language: node_js
 node_js:
   - "4.1"
+services:
+  - mysql
+before_script:
+  - mysql -e 'create database hammer_test;'
+  - mysql -e 'CREATE TABLE `hammer_test`.`users` ( `id` INT NOT NULL AUTO_INCREMENT, `username` VARCHAR(45) NOT NULL, `email` VARCHAR(255) NOT NULL, `password` VARCHAR(255) NOT NULL, PRIMARY KEY (`id`), UNIQUE INDEX `username_UNIQUE` (`username` ASC), UNIQUE INDEX `email_UNIQUE` (`email` ASC));'
 install: npm install
