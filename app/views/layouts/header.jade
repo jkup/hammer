@@ -39,29 +39,28 @@ html
                   role="button",
                   aria-haspopup="true",
                   aria-expanded="false"
-                ).dropdown-toggle.signin-toggle Sign in
+                ).dropdown-toggle Sign in
                   span.caret
                 form(
                   name="signin",
                   action="signin",
-                  method="post",
-                  data-parsley-validate
-                ).dropdown-menu
+                  method="post"
+                ).dropdown-menu.signin-form
                   input(
                     type="email",
                     name="email",
                     placeholder="Email address"
-                  ).form-control.Signin-Form
+                  ).form-control
                   input(
                     type="password",
                     name="password",
                     placeholder="Password"
-                  ).form-control.Signin-Form
+                  ).form-control
                   input(
                     type="submit",
                     value="Sign in",
                     class="btn btn-primary"
-                  ).Signin-Form--submit
+                  )
                 
               li
                 a(href="/signup") Sign Up

@@ -25,3 +25,11 @@ footer {
 .navbar {
   border-radius: 0px;
 }
+.signin-form {
+  width: 300px;
+  padding: 25px;
+}
+.signin-form input[type="email"],
+.signin-form input[type="password"] {
+  margin-bottom: 25px;
+}
