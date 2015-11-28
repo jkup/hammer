@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jkup/hammer.svg?branch=master)](https://travis-ci.org/jkup/hammer)
+
 # Hammer
 
 A Node.js, Express, MySQL, Passport, Jade starter kit.
