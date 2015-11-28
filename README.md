@@ -2,6 +2,10 @@
 
 A Node.js, Express, MySQL, Passport, Jade starter kit.
 
+## Screenshot
+
+![Hammer Homepage Screenshot](/hammer_screenshot.png "Hammer Screenshot")
+
 ## Installation
 
     git clone https://github.com/jkup/hammer.git
